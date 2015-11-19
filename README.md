@@ -7,10 +7,11 @@ It is a blog website that is open for public users to read other's posts in gene
 
 Bloggers/Users will be able to have the same functionlaties plus to do some CRUD operations on their posts, through security credintials.
 
+All pages are JSP, using bootstrap & JavaScript with spring and core taglibs. 
+
 
 # Technologies used:
 
-  - Java8
   - Spring Framework 4.0.3.RELEASE
   - Spring Security 3.2.3.RELEASE
   - Hibernate 4.3.5.Final
