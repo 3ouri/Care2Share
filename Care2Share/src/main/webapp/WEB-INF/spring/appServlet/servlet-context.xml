@@ -33,6 +33,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 
+	<!-- Database Connection -->
 	<beans:bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
 		destroy-method="close">
 		<beans:property name="driverClassName" value="com.mysql.jdbc.Driver" />
@@ -66,8 +67,10 @@
 		</beans:property>
 	</beans:bean>
 
+	<!-- Packages to scan -->
 	<context:component-scan base-package="edu.mum.cs.cs544.project.care2share" />
 
+	<!-- Transaction Manager -->
 	<tx:annotation-driven transaction-manager="transactionManager" />
 
 	<beans:bean id="transactionManager"

@@ -83,25 +83,4 @@ public class PostController {
 		postService.delete(postId);
 		return "redirect:/user/posts";
 	}
-
-	// @RequestMapping(value = "/books", method = RequestMethod.GET)
-	// public String getAll(Model model) {
-	// model.addAttribute("books", bookDao.getAll());
-	// return "bookList";
-	// }
-	//
-	// @RequestMapping(value = "/books/{id}", method = RequestMethod.POST)
-	// public String update(Book book, @PathVariable int id) {
-	// bookDao.update(id, book); // book.id already set by binding
-	// return "redirect:/books";
-	// }
-	//
-
-	// @ExceptionHandler(value = NoSuchResourceException.class)
-	// public ModelAndView handle(Exception e) {
-	// ModelAndView mv = new ModelAndView();
-	// mv.getModel().put("e", e);
-	// mv.setViewName("noSuchResource");
-	// return mv;
-	// }
 }

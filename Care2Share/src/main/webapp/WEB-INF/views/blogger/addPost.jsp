@@ -1,4 +1,4 @@
-	<%@include file="/WEB-INF/views/include/header.jsp" %>
+	<%@include file="/WEB-INF/views/include/headerUser.jsp" %>
 		
 	<!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
@@ -45,7 +45,7 @@
                     <br>
                     <div class="row">
                         <div class="form-group col-xs-12">
-                            <button type="submit" class="btn btn-default">Update Publish</button>
+                            <button type="submit" class="btn btn-default">New Publish</button>
                         </div>
                     </div>
                 </form>

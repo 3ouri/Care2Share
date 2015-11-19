@@ -54,7 +54,7 @@
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             	<ul class="nav navbar-nav navbar-right">
 					<li>
-						<a href="addPost">Add</a>
+						<a href="addPost">+New Post</a>
 					</li>
 					<li>
 						<a href="/Care2Share/j_spring_security_logout">Logout</a>
