@@ -3,9 +3,9 @@ This project is for educational purposes. A SpringMVC + Hibernate + Spring Secur
 
 # Project Description:
 
-It is a blog website that is open for public users to read other's posts in general, or by choosing specific user to show their posts, bio, and also may be contacted.
+It is a blog website that is open for public users to read other's posts in general, or by choosing specific user to show their posts, bio, and contact info.
 
-Bloggers/Users will be able to have the same functionlaties plus to do some CRUD operations on their posts, through security credintials.
+Bloggers/Users will be able to have the same functionalities plus to do some CRUD operations on their posts, through security credentials.
 
 All pages are JSP, using bootstrap & JavaScript with spring and core taglibs. 
 
